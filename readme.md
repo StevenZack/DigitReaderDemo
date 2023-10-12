@@ -1,4 +1,4 @@
-# todo
+# Instructions
 
 1. Install docker
 
