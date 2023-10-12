@@ -2,6 +2,9 @@
 You need a Ubuntu Linux to do this.
 
   An Ubuntu in Virtual Machine is okay.
+# Video Tutorial
+
+[YouTube](https://www.youtube.com/watch?v=VVfeuMWjQ5A)
 
 # Instructions
 
