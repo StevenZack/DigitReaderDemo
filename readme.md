@@ -46,6 +46,13 @@ pip install fastapi "uvicorn[standard]" Pillow
 create [api.py](./api/api.py) file.
 
 5. Build Docker image
+
+First create an account on [Docker Hub](https://hub.docker.com)
+
+And Create a repository called `digitreader`.
+
+Notice that `zigzigcheers` shown below is my Docker Hub account name, be sure to replace it with your account name
+
 ```
 docker build -t zigzigcheers/digitreader:v1 .
 ```
