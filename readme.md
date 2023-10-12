@@ -4,6 +4,8 @@
 
 ```
 sudo apt install docker.io
+# start docker daemon
+sudo systemctl start docker
 ```
 
 2. Install minikube
