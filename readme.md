@@ -1,3 +1,8 @@
+# Prerequisite 
+You need a Ubuntu Linux to do this.
+
+  An Ubuntu in Virtual Machine is okay.
+
 # Instructions
 
 1. Install docker
