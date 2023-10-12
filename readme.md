@@ -13,24 +13,30 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 minikube start
 ```
 
-3. Train our model
+3. Train the model
+
+Install dependencies first
 
 ```
 sudo apt install python3-pip
 pip install tensorflow numpy mnist keras
 ```
 
-train our model
+create [train.py](./train.py) file.
+
+train the model
 ```
 python3 train.py
 ```
 
 4. Create an API service
 
-Install FastAPI 
+Install FastAPI dependencies
 ```
 pip install fastapi "uvicorn[standard]" Pillow
 ```
+
+create [api.py](./api/api.py) file.
 
 5. Build Docker image
 ```
@@ -51,7 +57,7 @@ kubectl expose deployment digitreader --type=LoadBalancer --port=8080
 
 7. Next steps
 
-Using AWS service to make it work
+Using AWS service to make it better
 
-- [Amazon Polly](https://aws.amazon.com/polly/?nc2=type_a)
-- [Amazon Translate](https://aws.amazon.com/translate/?nc2=type_a)
+- [Amazon Polly](https://aws.amazon.com/polly/?nc2=type_a) - Text to Speach service
+- [Amazon Translate](https://aws.amazon.com/translate/?nc2=type_a) - Translation service
