@@ -65,6 +65,11 @@ test if it works
 docker run -d -p 8080:8080  zigzigcheers/digitreader:v1 
 ```
 
+ok, let's push it to Docker Hub
+```
+docker push zigzigcheers/digitreader:v1
+```
+
 6. Deploy to Kubernetes Cluster
 
 ```
